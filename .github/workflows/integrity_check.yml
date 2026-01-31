@@ -27,4 +27,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: integrity-reports
-          path: integrity_suite/report_integrity_*.{txt,html}
+          path: integrity_suite/**
+          if-no-files-found: warn

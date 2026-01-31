@@ -1,0 +1,373 @@
+{
+  "project": "SYNAPSE ERP",
+  "version": "1.1-extended",
+  "waves": [
+    {
+      "stage": "E1",
+      "title": "CORE SYSTEM",
+      "modules": [
+        {
+          "name": "Securitate și Configurație",
+          "functions": [
+            {
+              "id": "E1.SEC.AUTH.CORE.001",
+              "title": "Autentificare JWT + 2FA",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E1.SEC.RBAC.CORE.002",
+              "title": "Permisiuni & RBAC avansat",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E1.SEC.AUDT.CORE.003",
+              "title": "Audit Trail complet",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E1.CONF.SETT.CORE.004",
+              "title": "Setări generale aplicație",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E1.CONF.UI.FEAT.005",
+              "title": "Preferințe UI / Teme și Layout personalizabil",
+              "layer": "Features",
+              "status": "not_started"
+            },
+            {
+              "id": "E1.GEO.BASE.CORE.006",
+              "title": "Bază geografică România/UE",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E1.GLOBAL.VALID.CORE.007",
+              "title": "Validări globale (CUI, IBAN, email)",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E1.AUDT.MONIT.AI.008",
+              "title": "Monitor AI securitate și tentative atac",
+              "layer": "AI",
+              "status": "not_started"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "E2",
+      "title": "NAVIGARE, UI & AI SEARCH",
+      "modules": [
+        {
+          "name": "Navigare și Global Search AI",
+          "functions": [
+            {
+              "id": "E2.NAV.SRCH.FEAT.001",
+              "title": "Global Search AI cu type-ahead și sugestii inteligente",
+              "layer": "AI",
+              "status": "not_started"
+            },
+            {
+              "id": "E2.NAV.SVDS.FEAT.002",
+              "title": "Căutări salvate persistente",
+              "layer": "Features",
+              "status": "not_started"
+            },
+            {
+              "id": "E2.BI.DASH.FEAT.003",
+              "title": "Dashboard BI minimal & Healthcheck",
+              "layer": "Features",
+              "status": "not_started"
+            },
+            {
+              "id": "E2.NAV.VMAP.FEAT.004",
+              "title": "Harta Virală / Geo Heatmap",
+              "layer": "Features",
+              "status": "not_started"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "E3",
+      "title": "OPERAȚIONAL",
+      "modules": [
+        {
+          "name": "Clienți",
+          "functions": [
+            {
+              "id": "E3.CLI.FORM.CORE.001",
+              "title": "Formular Client complet (CRUD + TVA)",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.CLI.PRICE.AI.002",
+              "title": "Prețuri per client (AI Profile)",
+              "layer": "AI",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.CLI.CROSS.AI.003",
+              "title": "Recomandări cross-sell (AI)",
+              "layer": "AI",
+              "status": "not_started"
+            }
+          ]
+        },
+        {
+          "name": "Furnizori",
+          "functions": [
+            {
+              "id": "E3.SUP.DATA.CORE.004",
+              "title": "Gestionare furnizori",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.SUP.PRICE.AI.005",
+              "title": "Analiză prețuri achiziție (AI)",
+              "layer": "AI",
+              "status": "not_started"
+            }
+          ]
+        },
+        {
+          "name": "Produse",
+          "functions": [
+            {
+              "id": "E3.PRD.DATA.CORE.006",
+              "title": "Catalog produse & SKU",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.PRD.BOM.CORE.007",
+              "title": "Rețetar (Bill of Materials)",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.PRD.PRICE.AI.008",
+              "title": "AI Pricing Predictiv",
+              "layer": "AI",
+              "status": "not_started"
+            }
+          ]
+        },
+        {
+          "name": "Facturi și Plăți",
+          "functions": [
+            {
+              "id": "E3.FIN.INV.CORE.009",
+              "title": "Facturi ERP complete",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.FIN.NIR.AUTOM.010",
+              "title": "NIR automat la achiziție",
+              "layer": "Automations",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.FIN.PAY.AUTO.011",
+              "title": "Plăți automate – reconciliere bancară",
+              "layer": "Automations",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.FIN.PAY.AI.012",
+              "title": "AI Reconciliere flux plată",
+              "layer": "AI",
+              "status": "in_progress"
+            }
+          ]
+        },
+        {
+          "name": "HR",
+          "functions": [
+            {
+              "id": "E3.HR.DATA.CORE.013",
+              "title": "Evidență angajați și contracte",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.HR.SAL.AUTO.014",
+              "title": "Calcul salarii automatizat",
+              "layer": "Automations",
+              "status": "not_started"
+            },
+            {
+              "id": "E3.HR.D112.AI.015",
+              "title": "AI Validare Declarație D112",
+              "layer": "AI",
+              "status": "not_started"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "E4",
+      "title": "AUTOMATIZĂRI & AI",
+      "modules": [
+        {
+          "name": "Workflows & Automatizări",
+          "functions": [
+            {
+              "id": "E4.AUTR.FLOW.AUTO.001",
+              "title": "Editor de fluxuri drag & drop cu recomandări AI",
+              "layer": "Automations",
+              "status": "not_started"
+            },
+            {
+              "id": "E4.AUTR.CRON.AUTO.002",
+              "title": "Executare automată joburi cron",
+              "layer": "Automations",
+              "status": "not_started"
+            },
+            {
+              "id": "E4.AUTR.SHAD.AI.003",
+              "title": "AI Shadow Training (User behavior)",
+              "layer": "AI",
+              "status": "not_started"
+            }
+          ]
+        },
+        {
+          "name": "Legal & Help Center AI",
+          "functions": [
+            {
+              "id": "E4.LEGAL.WTCH.AI.004",
+              "title": "AI Legal Watch (Cod Fiscal/Muncii)",
+              "layer": "AI",
+              "status": "not_started"
+            },
+            {
+              "id": "E4.AI.HELP.FEAT.005",
+              "title": "Help Center AI – tutoriale interactive și ghiduri integrate",
+              "layer": "Features",
+              "status": "skeleton"
+            },
+            {
+              "id": "E4.AI.QA.AUTO.006",
+              "title": "QA Automation – Testare logică automată",
+              "layer": "Automations",
+              "status": "not_started"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "E5",
+      "title": "RAPOARTE & HEALTHCHECK",
+      "modules": [
+        {
+          "name": "Business Intelligence & KPI",
+          "functions": [
+            {
+              "id": "E5.BI.RPT.FEAT.001",
+              "title": "Rapoarte standard – Bilanț/Balanță",
+              "layer": "Features",
+              "status": "not_started"
+            },
+            {
+              "id": "E5.BI.RPT.AI.002",
+              "title": "AI Summary – insight raportare automată",
+              "layer": "AI",
+              "status": "not_started"
+            },
+            {
+              "id": "E5.HTH.CHK.AI.003",
+              "title": "Healthcheck global (AI Performance)",
+              "layer": "AI",
+              "status": "not_started"
+            },
+            {
+              "id": "E5.SYS.EXPORT.CONN.004",
+              "title": "Exporturi automatizate (CSV/API/PDF)",
+              "layer": "Connectivity",
+              "status": "not_started"
+            },
+            {
+              "id": "E5.SYS.ALERT.AUTO.005",
+              "title": "Alerting System – notificări automate",
+              "layer": "Automations",
+              "status": "not_started"
+            },
+            {
+              "id": "E5.AI.DIAG.AI.006",
+              "title": "AI Diagnostic – Monitorizare sistem",
+              "layer": "AI",
+              "status": "not_started"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "E6",
+      "title": "EXTENSII (Post Go-Live)",
+      "modules": [
+        {
+          "name": "Integrări & Extensii Externe",
+          "functions": [
+            {
+              "id": "E6.EXT.API.CONN.001",
+              "title": "Integrare SmartBill/Shopify/QuickBooks",
+              "layer": "Connectivity",
+              "status": "not_started"
+            },
+            {
+              "id": "E6.EXT.AI.PRICING.002",
+              "title": "Pachet AI Price Prediction Extended",
+              "layer": "AI",
+              "status": "not_started"
+            },
+            {
+              "id": "E6.EXT.MULTISITE.CORE.003",
+              "title": "Multi‑tenant ERP/multi‑entity",
+              "layer": "Core",
+              "status": "not_started"
+            },
+            {
+              "id": "E6.EXT.API.AUTOM.004",
+              "title": "Webhook & API Orchestrator Connector",
+              "layer": "Connectivity",
+              "status": "not_started"
+            },
+            {
+              "id": "E6.EXT.AI.LEARN.005",
+              "title": "Self‑Learning AI Extensions",
+              "layer": "AI",
+              "status": "not_started"
+            },
+            {
+              "id": "E6.EXT.BI.CORE.007",
+              "title": "BI Drill‑Down Modules",
+              "layer": "Features",
+              "status": "not_started"
+            },
+            {
+              "id": "E6.EXT.DOCS.AI.008",
+              "title": "Documentare automată Blueprint/Schema (AI)",
+              "layer": "AI",
+              "status": "not_started"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+===== QA SEMANTIC SYNAPSE ERP – 2026-01-31 20:58:38.290311 =====
+
+E1.SEC.AUTH.CORE.001 – Autentificare JWT + 2FA
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E1.SEC.RBAC.CORE.002 – Permisiuni & RBAC avansat
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E1.SEC.AUDT.CORE.003 – Audit Trail complet
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E1.CONF.SETT.CORE.004 – Setări generale aplicație
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E1.CONF.UI.FEAT.005 – Preferințe UI / Teme și Layout personalizabil
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E1.GEO.BASE.CORE.006 – Bază geografică România/UE
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E1.GLOBAL.VALID.CORE.007 – Validări globale (CUI, IBAN, email)
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E1.AUDT.MONIT.AI.008 – Monitor AI securitate și tentative atac
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E2.NAV.SRCH.FEAT.001 – Global Search AI cu type-ahead și sugestii inteligente
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E2.NAV.SVDS.FEAT.002 – Căutări salvate persistente
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E2.BI.DASH.FEAT.003 – Dashboard BI minimal & Healthcheck
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E2.NAV.VMAP.FEAT.004 – Harta Virală / Geo Heatmap
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.CLI.FORM.CORE.001 – Formular Client complet (CRUD + TVA)
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.CLI.PRICE.AI.002 – Prețuri per client (AI Profile)
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.CLI.CROSS.AI.003 – Recomandări cross-sell (AI)
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.SUP.DATA.CORE.004 – Gestionare furnizori
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.SUP.PRICE.AI.005 – Analiză prețuri achiziție (AI)
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.PRD.DATA.CORE.006 – Catalog produse & SKU
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.PRD.BOM.CORE.007 – Rețetar (Bill of Materials)
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.PRD.PRICE.AI.008 – AI Pricing Predictiv
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.FIN.INV.CORE.009 – Facturi ERP complete
+  Categorie: finance
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.FIN.NIR.AUTOM.010 – NIR automat la achiziție
+  Categorie: finance
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.FIN.PAY.AUTO.011 – Plăți automate – reconciliere bancară
+  Categorie: finance
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.FIN.PAY.AI.012 – AI Reconciliere flux plată
+  Categorie: finance
+  Semantica code/blueprint: 0.26
+  Business match: 0.17
+  Scor total: 0.22 → ❌ Nealiniat
+  Fișiere asociate: operational\payments\payment_ai.py
+------------------------------------------
+E3.HR.DATA.CORE.013 – Evidență angajați și contracte
+  Categorie: hr
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.HR.SAL.AUTO.014 – Calcul salarii automatizat
+  Categorie: hr
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E3.HR.D112.AI.015 – AI Validare Declarație D112
+  Categorie: hr
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E4.AUTR.FLOW.AUTO.001 – Editor de fluxuri drag & drop cu recomandări AI
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E4.AUTR.CRON.AUTO.002 – Executare automată joburi cron
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E4.AUTR.SHAD.AI.003 – AI Shadow Training (User behavior)
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E4.LEGAL.WTCH.AI.004 – AI Legal Watch (Cod Fiscal/Muncii)
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E4.AI.HELP.FEAT.005 – Help Center AI – tutoriale interactive și ghiduri integrate
+  Categorie: ai
+  Semantica code/blueprint: 0.12
+  Business match: 0.0
+  Scor total: 0.07 → ❌ Nealiniat
+  Fișiere asociate: frontend\help_center\help_center_ai.py
+------------------------------------------
+E4.AI.QA.AUTO.006 – QA Automation – Testare logică automată
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E5.BI.RPT.FEAT.001 – Rapoarte standard – Bilanț/Balanță
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E5.BI.RPT.AI.002 – AI Summary – insight raportare automată
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E5.HTH.CHK.AI.003 – Healthcheck global (AI Performance)
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E5.SYS.EXPORT.CONN.004 – Exporturi automatizate (CSV/API/PDF)
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E5.SYS.ALERT.AUTO.005 – Alerting System – notificări automate
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E5.AI.DIAG.AI.006 – AI Diagnostic – Monitorizare sistem
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E6.EXT.API.CONN.001 – Integrare SmartBill/Shopify/QuickBooks
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E6.EXT.AI.PRICING.002 – Pachet AI Price Prediction Extended
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E6.EXT.MULTISITE.CORE.003 – Multi‑tenant ERP/multi‑entity
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E6.EXT.API.AUTOM.004 – Webhook & API Orchestrator Connector
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E6.EXT.AI.LEARN.005 – Self‑Learning AI Extensions
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E6.EXT.BI.CORE.007 – BI Drill‑Down Modules
+  Categorie: general
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------
+E6.EXT.DOCS.AI.008 – Documentare automată Blueprint/Schema (AI)
+  Categorie: ai
+  Semantica code/blueprint: 0.0
+  Business match: 0.0
+  Scor total: 0.0 → ❌ Nealiniat
+  Fișiere asociate: N/A
+------------------------------------------

@@ -1,0 +1,30 @@
+name: SYNAPSE ERP – Code Integrity Audit
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  integrity-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔄 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 🧩 Run Integrity Suite
+        run: |
+          python integrity_suite/integrity_runner.py
+
+      - name: 📦 Upload integrity reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: integrity-reports
+          path: integrity_suite/report_integrity_*.{txt,html}

@@ -1,0 +1,8 @@
+###############################################
+# SYNAPSE ERP – File Header
+# Nume fișier: {filename}
+# Modul: {module}
+# Creat automat la: {date}
+# Limbă implicita: Română (RO)
+# Traducere disponibilă: Engleză (EN)
+###############################################

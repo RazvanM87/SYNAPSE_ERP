@@ -1,0 +1,278 @@
+{
+  "E1.SEC.AUTH.CORE.001": {
+    "stage": "E1",
+    "module": "Securitate și Configurație",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E1.SEC.RBAC.CORE.002": {
+    "stage": "E1",
+    "module": "Securitate și Configurație",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E1.SEC.AUDT.CORE.003": {
+    "stage": "E1",
+    "module": "Securitate și Configurație",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E1.CONF.SETT.CORE.004": {
+    "stage": "E1",
+    "module": "Securitate și Configurație",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E1.CONF.UI.FEAT.005": {
+    "stage": "E1",
+    "module": "Securitate și Configurație",
+    "status": "not_started",
+    "suggested_path": "frontend/ui/"
+  },
+  "E1.GEO.BASE.CORE.006": {
+    "stage": "E1",
+    "module": "Securitate și Configurație",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E1.GLOBAL.VALID.CORE.007": {
+    "stage": "E1",
+    "module": "Securitate și Configurație",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E1.AUDT.MONIT.AI.008": {
+    "stage": "E1",
+    "module": "Securitate și Configurație",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E2.NAV.SRCH.FEAT.001": {
+    "stage": "E2",
+    "module": "Navigare și Global Search AI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E2.NAV.SVDS.FEAT.002": {
+    "stage": "E2",
+    "module": "Navigare și Global Search AI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E2.BI.DASH.FEAT.003": {
+    "stage": "E2",
+    "module": "Navigare și Global Search AI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E2.NAV.VMAP.FEAT.004": {
+    "stage": "E2",
+    "module": "Navigare și Global Search AI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E3.CLI.FORM.CORE.001": {
+    "stage": "E3",
+    "module": "Clienți",
+    "status": "not_started",
+    "suggested_path": "operational/clients/"
+  },
+  "E3.CLI.PRICE.AI.002": {
+    "stage": "E3",
+    "module": "Clienți",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E3.CLI.CROSS.AI.003": {
+    "stage": "E3",
+    "module": "Clienți",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E3.SUP.DATA.CORE.004": {
+    "stage": "E3",
+    "module": "Furnizori",
+    "status": "not_started",
+    "suggested_path": "operational/suppliers/"
+  },
+  "E3.SUP.PRICE.AI.005": {
+    "stage": "E3",
+    "module": "Furnizori",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E3.PRD.DATA.CORE.006": {
+    "stage": "E3",
+    "module": "Produse",
+    "status": "not_started",
+    "suggested_path": "operational/products/"
+  },
+  "E3.PRD.BOM.CORE.007": {
+    "stage": "E3",
+    "module": "Produse",
+    "status": "not_started",
+    "suggested_path": "operational/products/"
+  },
+  "E3.PRD.PRICE.AI.008": {
+    "stage": "E3",
+    "module": "Produse",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E3.FIN.INV.CORE.009": {
+    "stage": "E3",
+    "module": "Facturi și Plăți",
+    "status": "not_started",
+    "suggested_path": "operational/payments/"
+  },
+  "E3.FIN.NIR.AUTOM.010": {
+    "stage": "E3",
+    "module": "Facturi și Plăți",
+    "status": "not_started",
+    "suggested_path": "operational/payments/"
+  },
+  "E3.FIN.PAY.AUTO.011": {
+    "stage": "E3",
+    "module": "Facturi și Plăți",
+    "status": "not_started",
+    "suggested_path": "operational/payments/"
+  },
+  "E3.FIN.PAY.AI.012": {
+    "stage": "E3",
+    "module": "Facturi și Plăți",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E3.HR.DATA.CORE.013": {
+    "stage": "E3",
+    "module": "HR",
+    "status": "not_started",
+    "suggested_path": "operational/hr/"
+  },
+  "E3.HR.SAL.AUTO.014": {
+    "stage": "E3",
+    "module": "HR",
+    "status": "not_started",
+    "suggested_path": "operational/hr/"
+  },
+  "E3.HR.D112.AI.015": {
+    "stage": "E3",
+    "module": "HR",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E4.AUTR.FLOW.AUTO.001": {
+    "stage": "E4",
+    "module": "Workflows & Automatizări",
+    "status": "not_started",
+    "suggested_path": "automations/flows/"
+  },
+  "E4.AUTR.CRON.AUTO.002": {
+    "stage": "E4",
+    "module": "Workflows & Automatizări",
+    "status": "not_started",
+    "suggested_path": "automations/flows/"
+  },
+  "E4.AUTR.SHAD.AI.003": {
+    "stage": "E4",
+    "module": "Workflows & Automatizări",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E4.LEGAL.WTCH.AI.004": {
+    "stage": "E4",
+    "module": "Legal & Help Center AI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E4.AI.HELP.FEAT.005": {
+    "stage": "E4",
+    "module": "Legal & Help Center AI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E4.AI.QA.AUTO.006": {
+    "stage": "E4",
+    "module": "Legal & Help Center AI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E5.BI.RPT.FEAT.001": {
+    "stage": "E5",
+    "module": "Business Intelligence & KPI",
+    "status": "not_started",
+    "suggested_path": "bi/dashboard/"
+  },
+  "E5.BI.RPT.AI.002": {
+    "stage": "E5",
+    "module": "Business Intelligence & KPI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E5.HTH.CHK.AI.003": {
+    "stage": "E5",
+    "module": "Business Intelligence & KPI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E5.SYS.EXPORT.CONN.004": {
+    "stage": "E5",
+    "module": "Business Intelligence & KPI",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E5.SYS.ALERT.AUTO.005": {
+    "stage": "E5",
+    "module": "Business Intelligence & KPI",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E5.AI.DIAG.AI.006": {
+    "stage": "E5",
+    "module": "Business Intelligence & KPI",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E6.EXT.API.CONN.001": {
+    "stage": "E6",
+    "module": "Integrări & Extensii Externe",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E6.EXT.AI.PRICING.002": {
+    "stage": "E6",
+    "module": "Integrări & Extensii Externe",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E6.EXT.MULTISITE.CORE.003": {
+    "stage": "E6",
+    "module": "Integrări & Extensii Externe",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E6.EXT.API.AUTOM.004": {
+    "stage": "E6",
+    "module": "Integrări & Extensii Externe",
+    "status": "not_started",
+    "suggested_path": "core/"
+  },
+  "E6.EXT.AI.LEARN.005": {
+    "stage": "E6",
+    "module": "Integrări & Extensii Externe",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  },
+  "E6.EXT.BI.CORE.007": {
+    "stage": "E6",
+    "module": "Integrări & Extensii Externe",
+    "status": "not_started",
+    "suggested_path": "bi/dashboard/"
+  },
+  "E6.EXT.DOCS.AI.008": {
+    "stage": "E6",
+    "module": "Integrări & Extensii Externe",
+    "status": "not_started",
+    "suggested_path": "ai/"
+  }
+}

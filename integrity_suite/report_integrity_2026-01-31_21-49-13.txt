@@ -1,0 +1,37 @@
+
+=== structural_integrity.py ===
+=== Structural Integrity Check ===
+✅ Structura ERP este completă.
+
+
+=== code_static_security.py ===
+=== Static Code Security Check ===
+🚨 Probleme detectate:
+ - os.system → .\sync_blueprint.py
+ - eval( → .\integrity_suite\code_static_security.py
+ - exec( → .\integrity_suite\code_static_security.py
+ - os.system → .\integrity_suite\code_static_security.py
+ - subprocess.Popen → .\integrity_suite\code_static_security.py
+ - open("/etc/ → .\integrity_suite\code_static_security.py
+ - pickle.load → .\integrity_suite\code_static_security.py
+
+
+=== feature_integrity.py ===
+=== Feature Integrity Check ===
+✅ Găsite în cod: 0 / Declarate în blueprint: 46
+❌ Lipsă: 46 funcționalități neimplementate
+   - E1.SEC.AUTH.CORE.001
+   - E1.SEC.RBAC.CORE.002
+   - E1.SEC.AUDT.CORE.003
+   - E1.CONF.SETT.CORE.004
+   - E1.CONF.UI.FEAT.005
+   - E1.GEO.BASE.CORE.006
+   - E1.GLOBAL.VALID.CORE.007
+   - E1.AUDT.MONIT.AI.008
+   - E2.NAV.SRCH.FEAT.001
+   - E2.NAV.SVDS.FEAT.002
+
+
+=== dependency_check.py ===
+=== Dependency Check ===
+✅ Nicio dependență circulară găsită.

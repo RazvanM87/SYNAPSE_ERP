@@ -1,61 +1,135 @@
 {
   "project": "SYNAPSE ERP",
-  "version": "1.1-extended",
+  "version": "1.1-auto",
   "waves": [
     {
       "stage": "E1",
-      "title": "CORE SYSTEM",
+      "title": "Core",
       "modules": [
         {
-          "name": "Securitate și Configurație",
+          "name": "Auth",
           "functions": [
             {
-              "id": "E1.SEC.AUTH.CORE.001",
-              "title": "Autentificare JWT + 2FA",
+              "id": "E01.AUT.COR.100",
+              "title": "Auth service",
               "layer": "Core",
-              "status": "not_started"
+              "status": "skeleton"
             },
             {
-              "id": "E1.SEC.RBAC.CORE.002",
-              "title": "Permisiuni & RBAC avansat",
+              "id": "E02.AUT.COR.101",
+              "title": "Auth controller",
               "layer": "Core",
-              "status": "not_started"
+              "status": "skeleton"
             },
             {
-              "id": "E1.SEC.AUDT.CORE.003",
-              "title": "Audit Trail complet",
+              "id": "E03.AUT.COR.102",
+              "title": "Roles permissions",
               "layer": "Core",
-              "status": "not_started"
+              "status": "skeleton"
             },
             {
-              "id": "E1.CONF.SETT.CORE.004",
-              "title": "Setări generale aplicație",
+              "id": "E04.AUT.COR.103",
+              "title": "Audit log service",
               "layer": "Core",
-              "status": "not_started"
-            },
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Config",
+          "functions": [
             {
-              "id": "E1.CONF.UI.FEAT.005",
-              "title": "Preferințe UI / Teme și Layout personalizabil",
-              "layer": "Features",
-              "status": "not_started"
-            },
-            {
-              "id": "E1.GEO.BASE.CORE.006",
-              "title": "Bază geografică România/UE",
+              "id": "E05.CON.COR.104",
+              "title": "Settings service",
               "layer": "Core",
-              "status": "not_started"
+              "status": "skeleton"
             },
             {
-              "id": "E1.GLOBAL.VALID.CORE.007",
-              "title": "Validări globale (CUI, IBAN, email)",
+              "id": "E06.CON.COR.105",
+              "title": "Preferences service",
               "layer": "Core",
-              "status": "not_started"
+              "status": "skeleton"
             },
             {
-              "id": "E1.AUDT.MONIT.AI.008",
-              "title": "Monitor AI securitate și tentative atac",
-              "layer": "AI",
-              "status": "not_started"
+              "id": "E07.CON.COR.106",
+              "title": "Globals manager",
+              "layer": "Core",
+              "status": "skeleton"
+            },
+            {
+              "id": "E08.CON.COR.107",
+              "title": "Db connect",
+              "layer": "Core",
+              "status": "skeleton"
+            },
+            {
+              "id": "E09.CON.COR.108",
+              "title": "Db builder",
+              "layer": "Core",
+              "status": "skeleton"
+            },
+            {
+              "id": "E10.CON.COR.109",
+              "title": "Metadata/forms manager",
+              "layer": "Core",
+              "status": "skeleton"
+            },
+            {
+              "id": "E11.CON.COR.110",
+              "title": "Metadata/fields manager",
+              "layer": "Core",
+              "status": "skeleton"
+            },
+            {
+              "id": "E12.CON.COR.111",
+              "title": "Metadata/relationships map",
+              "layer": "Core",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Validation",
+          "functions": [
+            {
+              "id": "E13.VAL.COR.112",
+              "title": "Validators",
+              "layer": "Core",
+              "status": "skeleton"
+            },
+            {
+              "id": "E14.VAL.COR.113",
+              "title": "Formats global",
+              "layer": "Core",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Theming",
+          "functions": [
+            {
+              "id": "E15.THE.COR.114",
+              "title": "Theme manager",
+              "layer": "Core",
+              "status": "skeleton"
+            },
+            {
+              "id": "E16.THE.COR.115",
+              "title": "Color schemes",
+              "layer": "Core",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Notifications",
+          "functions": [
+            {
+              "id": "E17.NOT.COR.116",
+              "title": "Alerts service",
+              "layer": "Core",
+              "status": "skeleton"
             }
           ]
         }
@@ -63,34 +137,282 @@
     },
     {
       "stage": "E2",
-      "title": "NAVIGARE, UI & AI SEARCH",
+      "title": "Operational",
       "modules": [
         {
-          "name": "Navigare și Global Search AI",
+          "name": "Clients",
           "functions": [
             {
-              "id": "E2.NAV.SRCH.FEAT.001",
-              "title": "Global Search AI cu type-ahead și sugestii inteligente",
-              "layer": "AI",
-              "status": "not_started"
+              "id": "E18.CLI.OPE.117",
+              "title": "Client service",
+              "layer": "Operational",
+              "status": "skeleton"
             },
             {
-              "id": "E2.NAV.SVDS.FEAT.002",
-              "title": "Căutări salvate persistente",
-              "layer": "Features",
-              "status": "not_started"
+              "id": "E19.CLI.OPE.118",
+              "title": "Client controller",
+              "layer": "Operational",
+              "status": "skeleton"
             },
             {
-              "id": "E2.BI.DASH.FEAT.003",
-              "title": "Dashboard BI minimal & Healthcheck",
-              "layer": "Features",
-              "status": "not_started"
+              "id": "E20.CLI.OPE.119",
+              "title": "Client pricing",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Suppliers",
+          "functions": [
+            {
+              "id": "E21.SUP.OPE.120",
+              "title": "Supplier service",
+              "layer": "Operational",
+              "status": "skeleton"
             },
             {
-              "id": "E2.NAV.VMAP.FEAT.004",
-              "title": "Harta Virală / Geo Heatmap",
-              "layer": "Features",
-              "status": "not_started"
+              "id": "E22.SUP.OPE.121",
+              "title": "Supplier controller",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Products",
+          "functions": [
+            {
+              "id": "E23.PRO.OPE.122",
+              "title": "Product service",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E24.PRO.OPE.123",
+              "title": "Product pricing",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E25.PRO.OPE.124",
+              "title": "Bom service",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Sales",
+          "functions": [
+            {
+              "id": "E26.SAL.OPE.125",
+              "title": "Sales order",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E27.SAL.OPE.126",
+              "title": "Offer",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E28.SAL.OPE.127",
+              "title": "Delivery note",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Purchases",
+          "functions": [
+            {
+              "id": "E29.PUR.OPE.128",
+              "title": "Purchase request",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E30.PUR.OPE.129",
+              "title": "Purchase order",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E31.PUR.OPE.130",
+              "title": "Receipt note",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Invoices",
+          "functions": [
+            {
+              "id": "E32.INV.OPE.131",
+              "title": "Invoice service",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E33.INV.OPE.132",
+              "title": "Invoice controller",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Payments",
+          "functions": [
+            {
+              "id": "E34.PAY.OPE.133",
+              "title": "Payment service",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E35.PAY.OPE.134",
+              "title": "Payment ai",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Warehouse",
+          "functions": [
+            {
+              "id": "E36.WAR.OPE.135",
+              "title": "Inventory service",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E37.WAR.OPE.136",
+              "title": "Stock transfer",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E38.WAR.OPE.137",
+              "title": "Inventory adjustment",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Accounting",
+          "functions": [
+            {
+              "id": "E39.ACC.OPE.138",
+              "title": "Chart of accounts",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E40.ACC.OPE.139",
+              "title": "General ledger",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E41.ACC.OPE.140",
+              "title": "Journal entries",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E42.ACC.OPE.141",
+              "title": "Cash register",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E43.ACC.OPE.142",
+              "title": "Bank statement",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E44.ACC.OPE.143",
+              "title": "Accounting reports",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Costing",
+          "functions": [
+            {
+              "id": "E45.COS.OPE.144",
+              "title": "Cost centers",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E46.COS.OPE.145",
+              "title": "Cost calculation",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E47.COS.OPE.146",
+              "title": "Internal orders",
+              "layer": "Operational",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Hr",
+          "functions": [
+            {
+              "id": "E48.HR.OPE.147",
+              "title": "Hr data",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E49.HR.OPE.148",
+              "title": "Payroll",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E50.HR.OPE.149",
+              "title": "Salary auto",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E51.HR.OPE.150",
+              "title": "Timesheet",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E52.HR.OPE.151",
+              "title": "Leave management",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E53.HR.OPE.152",
+              "title": "D112 ai",
+              "layer": "Operational",
+              "status": "skeleton"
+            },
+            {
+              "id": "E54.HR.OPE.153",
+              "title": "Revisal export",
+              "layer": "Operational",
+              "status": "skeleton"
             }
           ]
         }
@@ -98,120 +420,68 @@
     },
     {
       "stage": "E3",
-      "title": "OPERAȚIONAL",
+      "title": "Automations",
       "modules": [
         {
-          "name": "Clienți",
+          "name": "Flows",
           "functions": [
             {
-              "id": "E3.CLI.FORM.CORE.001",
-              "title": "Formular Client complet (CRUD + TVA)",
-              "layer": "Core",
-              "status": "not_started"
-            },
-            {
-              "id": "E3.CLI.PRICE.AI.002",
-              "title": "Prețuri per client (AI Profile)",
-              "layer": "AI",
-              "status": "not_started"
-            },
-            {
-              "id": "E3.CLI.CROSS.AI.003",
-              "title": "Recomandări cross-sell (AI)",
-              "layer": "AI",
-              "status": "not_started"
-            }
-          ]
-        },
-        {
-          "name": "Furnizori",
-          "functions": [
-            {
-              "id": "E3.SUP.DATA.CORE.004",
-              "title": "Gestionare furnizori",
-              "layer": "Core",
-              "status": "not_started"
-            },
-            {
-              "id": "E3.SUP.PRICE.AI.005",
-              "title": "Analiză prețuri achiziție (AI)",
-              "layer": "AI",
-              "status": "not_started"
-            }
-          ]
-        },
-        {
-          "name": "Produse",
-          "functions": [
-            {
-              "id": "E3.PRD.DATA.CORE.006",
-              "title": "Catalog produse & SKU",
-              "layer": "Core",
-              "status": "not_started"
-            },
-            {
-              "id": "E3.PRD.BOM.CORE.007",
-              "title": "Rețetar (Bill of Materials)",
-              "layer": "Core",
-              "status": "not_started"
-            },
-            {
-              "id": "E3.PRD.PRICE.AI.008",
-              "title": "AI Pricing Predictiv",
-              "layer": "AI",
-              "status": "not_started"
-            }
-          ]
-        },
-        {
-          "name": "Facturi și Plăți",
-          "functions": [
-            {
-              "id": "E3.FIN.INV.CORE.009",
-              "title": "Facturi ERP complete",
-              "layer": "Core",
-              "status": "not_started"
-            },
-            {
-              "id": "E3.FIN.NIR.AUTOM.010",
-              "title": "NIR automat la achiziție",
+              "id": "E55.FLO.AUT.154",
+              "title": "Workflow designer",
               "layer": "Automations",
-              "status": "not_started"
+              "status": "skeleton"
             },
             {
-              "id": "E3.FIN.PAY.AUTO.011",
-              "title": "Plăți automate – reconciliere bancară",
+              "id": "E56.FLO.AUT.155",
+              "title": "Ai recommendations",
               "layer": "Automations",
-              "status": "not_started"
+              "status": "skeleton"
             },
             {
-              "id": "E3.FIN.PAY.AI.012",
-              "title": "AI Reconciliere flux plată",
-              "layer": "AI",
-              "status": "in_progress"
+              "id": "E57.FLO.AUT.156",
+              "title": "Cron jobs",
+              "layer": "Automations",
+              "status": "skeleton"
+            },
+            {
+              "id": "E58.FLO.AUT.157",
+              "title": "Task flow",
+              "layer": "Automations",
+              "status": "skeleton"
             }
           ]
         },
         {
-          "name": "HR",
+          "name": "Triggers",
           "functions": [
             {
-              "id": "E3.HR.DATA.CORE.013",
-              "title": "Evidență angajați și contracte",
-              "layer": "Core",
-              "status": "not_started"
-            },
-            {
-              "id": "E3.HR.SAL.AUTO.014",
-              "title": "Calcul salarii automatizat",
+              "id": "E59.TRI.AUT.158",
+              "title": "Config event service",
               "layer": "Automations",
-              "status": "not_started"
+              "status": "skeleton"
             },
             {
-              "id": "E3.HR.D112.AI.015",
-              "title": "AI Validare Declarație D112",
-              "layer": "AI",
-              "status": "not_started"
+              "id": "E60.TRI.AUT.159",
+              "title": "Workflow triggers",
+              "layer": "Automations",
+              "status": "skeleton"
+            },
+            {
+              "id": "E61.TRI.AUT.160",
+              "title": "Scheduler jobs",
+              "layer": "Automations",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Qa",
+          "functions": [
+            {
+              "id": "E62.QA.AUT.161",
+              "title": "Auto tests",
+              "layer": "Automations",
+              "status": "skeleton"
             }
           ]
         }
@@ -219,51 +489,84 @@
     },
     {
       "stage": "E4",
-      "title": "AUTOMATIZĂRI & AI",
+      "title": "AI",
       "modules": [
         {
-          "name": "Workflows & Automatizări",
+          "name": "Learning",
           "functions": [
             {
-              "id": "E4.AUTR.FLOW.AUTO.001",
-              "title": "Editor de fluxuri drag & drop cu recomandări AI",
-              "layer": "Automations",
-              "status": "not_started"
-            },
-            {
-              "id": "E4.AUTR.CRON.AUTO.002",
-              "title": "Executare automată joburi cron",
-              "layer": "Automations",
-              "status": "not_started"
-            },
-            {
-              "id": "E4.AUTR.SHAD.AI.003",
-              "title": "AI Shadow Training (User behavior)",
+              "id": "E63.LEA.AI.162",
+              "title": "Ai extensions",
               "layer": "AI",
-              "status": "not_started"
+              "status": "skeleton"
+            },
+            {
+              "id": "E64.LEA.AI.163",
+              "title": "Shadow training ai",
+              "layer": "AI",
+              "status": "skeleton"
             }
           ]
         },
         {
-          "name": "Legal & Help Center AI",
+          "name": "Predictions",
           "functions": [
             {
-              "id": "E4.LEGAL.WTCH.AI.004",
-              "title": "AI Legal Watch (Cod Fiscal/Muncii)",
+              "id": "E65.PRE.AI.164",
+              "title": "Sales model",
               "layer": "AI",
-              "status": "not_started"
-            },
-            {
-              "id": "E4.AI.HELP.FEAT.005",
-              "title": "Help Center AI – tutoriale interactive și ghiduri integrate",
-              "layer": "Features",
               "status": "skeleton"
             },
             {
-              "id": "E4.AI.QA.AUTO.006",
-              "title": "QA Automation – Testare logică automată",
-              "layer": "Automations",
-              "status": "not_started"
+              "id": "E66.PRE.AI.165",
+              "title": "Ledger forecast ai",
+              "layer": "AI",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Pricing",
+          "functions": [
+            {
+              "id": "E67.PRI.AI.166",
+              "title": "Pricing ai",
+              "layer": "AI",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Reconciliation",
+          "functions": [
+            {
+              "id": "E68.REC.AI.167",
+              "title": "Payment reconcile ai",
+              "layer": "AI",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Context_engine",
+          "functions": [
+            {
+              "id": "E69.CON.AI.168",
+              "title": "Dependency mapper",
+              "layer": "AI",
+              "status": "skeleton"
+            },
+            {
+              "id": "E70.CON.AI.169",
+              "title": "Retraining service",
+              "layer": "AI",
+              "status": "skeleton"
+            },
+            {
+              "id": "E71.CON.AI.170",
+              "title": "Ai events bridge",
+              "layer": "AI",
+              "status": "skeleton"
             }
           ]
         }
@@ -271,46 +574,62 @@
     },
     {
       "stage": "E5",
-      "title": "RAPOARTE & HEALTHCHECK",
+      "title": "Extensions",
       "modules": [
         {
-          "name": "Business Intelligence & KPI",
+          "name": "Connectors",
           "functions": [
             {
-              "id": "E5.BI.RPT.FEAT.001",
-              "title": "Rapoarte standard – Bilanț/Balanță",
-              "layer": "Features",
-              "status": "not_started"
+              "id": "E72.CON.EXT.171",
+              "title": "Api connector",
+              "layer": "Extensions",
+              "status": "skeleton"
             },
             {
-              "id": "E5.BI.RPT.AI.002",
-              "title": "AI Summary – insight raportare automată",
-              "layer": "AI",
-              "status": "not_started"
+              "id": "E73.CON.EXT.172",
+              "title": "Webhook orchestrator",
+              "layer": "Extensions",
+              "status": "skeleton"
             },
             {
-              "id": "E5.HTH.CHK.AI.003",
-              "title": "Healthcheck global (AI Performance)",
-              "layer": "AI",
-              "status": "not_started"
+              "id": "E74.CON.EXT.173",
+              "title": "Import export ai",
+              "layer": "Extensions",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Docs",
+          "functions": [
+            {
+              "id": "E75.DOC.EXT.174",
+              "title": "File cabinet",
+              "layer": "Extensions",
+              "status": "skeleton"
             },
             {
-              "id": "E5.SYS.EXPORT.CONN.004",
-              "title": "Exporturi automatizate (CSV/API/PDF)",
-              "layer": "Connectivity",
-              "status": "not_started"
+              "id": "E76.DOC.EXT.175",
+              "title": "Documentation service",
+              "layer": "Extensions",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Multisite",
+          "functions": [
+            {
+              "id": "E77.MUL.EXT.176",
+              "title": "Multitenant core",
+              "layer": "Extensions",
+              "status": "skeleton"
             },
             {
-              "id": "E5.SYS.ALERT.AUTO.005",
-              "title": "Alerting System – notificări automate",
-              "layer": "Automations",
-              "status": "not_started"
-            },
-            {
-              "id": "E5.AI.DIAG.AI.006",
-              "title": "AI Diagnostic – Monitorizare sistem",
-              "layer": "AI",
-              "status": "not_started"
+              "id": "E78.MUL.EXT.177",
+              "title": "Tenant settings",
+              "layer": "Extensions",
+              "status": "skeleton"
             }
           ]
         }
@@ -318,52 +637,76 @@
     },
     {
       "stage": "E6",
-      "title": "EXTENSII (Post Go-Live)",
+      "title": "BI",
       "modules": [
         {
-          "name": "Integrări & Extensii Externe",
+          "name": "Dashboard",
           "functions": [
             {
-              "id": "E6.EXT.API.CONN.001",
-              "title": "Integrare SmartBill/Shopify/QuickBooks",
-              "layer": "Connectivity",
-              "status": "not_started"
+              "id": "E79.DAS.BI.178",
+              "title": "Finance dashboard",
+              "layer": "BI",
+              "status": "skeleton"
             },
             {
-              "id": "E6.EXT.AI.PRICING.002",
-              "title": "Pachet AI Price Prediction Extended",
-              "layer": "AI",
-              "status": "not_started"
+              "id": "E80.DAS.BI.179",
+              "title": "Drilldown modules",
+              "layer": "BI",
+              "status": "skeleton"
+            }
+          ]
+        },
+        {
+          "name": "Reports",
+          "functions": [
+            {
+              "id": "E81.REP.BI.180",
+              "title": "Report export",
+              "layer": "BI",
+              "status": "skeleton"
             },
             {
-              "id": "E6.EXT.MULTISITE.CORE.003",
-              "title": "Multi‑tenant ERP/multi‑entity",
-              "layer": "Core",
-              "status": "not_started"
+              "id": "E82.REP.BI.181",
+              "title": "Alert system",
+              "layer": "BI",
+              "status": "skeleton"
             },
             {
-              "id": "E6.EXT.API.AUTOM.004",
-              "title": "Webhook & API Orchestrator Connector",
-              "layer": "Connectivity",
-              "status": "not_started"
+              "id": "E83.REP.BI.182",
+              "title": "Financial reporting",
+              "layer": "BI",
+              "status": "skeleton"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "E7",
+      "title": "Frontend",
+      "modules": [
+        {
+          "name": "Ui",
+          "functions": []
+        },
+        {
+          "name": "Search",
+          "functions": []
+        },
+        {
+          "name": "Help_center",
+          "functions": [
+            {
+              "id": "E84.HEL.FRO.183",
+              "title": "Help center ai",
+              "layer": "Frontend",
+              "status": "skeleton"
             },
             {
-              "id": "E6.EXT.AI.LEARN.005",
-              "title": "Self‑Learning AI Extensions",
-              "layer": "AI",
-              "status": "not_started"
-            },
-            {
-              "id": "E6.EXT.BI.CORE.007",
-              "title": "BI Drill‑Down Modules",
-              "layer": "Features",
-              "status": "not_started"
-            },
-            {
-              "id": "E6.EXT.DOCS.AI.008",
-              "title": "Documentare automată Blueprint/Schema (AI)",
-              "layer": "AI",
-              "status": "not_started"
+              "id": "E85.HEL.FRO.184",
+              "title": "Tutorials manager",
+              "layer": "Frontend",
+              "status": "skeleton"
             }
           ]
         }

@@ -1,278 +1,597 @@
 {
-  "E1.SEC.AUTH.CORE.001": {
+  "E01.AUT.COR.100": {
     "stage": "E1",
-    "module": "Securitate și Configurație",
-    "status": "not_started",
-    "suggested_path": "core/"
+    "layer": "core",
+    "module": "Auth",
+    "status": "skeleton",
+    "suggested_path": "core/auth/"
   },
-  "E1.SEC.RBAC.CORE.002": {
+  "E02.AUT.COR.101": {
     "stage": "E1",
-    "module": "Securitate și Configurație",
-    "status": "not_started",
-    "suggested_path": "core/"
+    "layer": "core",
+    "module": "Auth",
+    "status": "skeleton",
+    "suggested_path": "core/auth/"
   },
-  "E1.SEC.AUDT.CORE.003": {
+  "E03.AUT.COR.102": {
     "stage": "E1",
-    "module": "Securitate și Configurație",
-    "status": "not_started",
-    "suggested_path": "core/"
+    "layer": "core",
+    "module": "Auth",
+    "status": "skeleton",
+    "suggested_path": "core/auth/"
   },
-  "E1.CONF.SETT.CORE.004": {
+  "E04.AUT.COR.103": {
     "stage": "E1",
-    "module": "Securitate și Configurație",
-    "status": "not_started",
-    "suggested_path": "core/"
+    "layer": "core",
+    "module": "Auth",
+    "status": "skeleton",
+    "suggested_path": "core/auth/"
   },
-  "E1.CONF.UI.FEAT.005": {
+  "E05.CON.COR.104": {
     "stage": "E1",
-    "module": "Securitate și Configurație",
-    "status": "not_started",
-    "suggested_path": "frontend/ui/"
+    "layer": "core",
+    "module": "Config",
+    "status": "skeleton",
+    "suggested_path": "core/config/"
   },
-  "E1.GEO.BASE.CORE.006": {
+  "E06.CON.COR.105": {
     "stage": "E1",
-    "module": "Securitate și Configurație",
-    "status": "not_started",
-    "suggested_path": "core/"
+    "layer": "core",
+    "module": "Config",
+    "status": "skeleton",
+    "suggested_path": "core/config/"
   },
-  "E1.GLOBAL.VALID.CORE.007": {
+  "E07.CON.COR.106": {
     "stage": "E1",
-    "module": "Securitate și Configurație",
-    "status": "not_started",
-    "suggested_path": "core/"
+    "layer": "core",
+    "module": "Config",
+    "status": "skeleton",
+    "suggested_path": "core/config/"
   },
-  "E1.AUDT.MONIT.AI.008": {
+  "E08.CON.COR.107": {
     "stage": "E1",
-    "module": "Securitate și Configurație",
-    "status": "not_started",
-    "suggested_path": "ai/"
+    "layer": "core",
+    "module": "Config",
+    "status": "skeleton",
+    "suggested_path": "core/config/"
   },
-  "E2.NAV.SRCH.FEAT.001": {
+  "E09.CON.COR.108": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Config",
+    "status": "skeleton",
+    "suggested_path": "core/config/"
+  },
+  "E10.CON.COR.109": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Config",
+    "status": "skeleton",
+    "suggested_path": "core/config/"
+  },
+  "E11.CON.COR.110": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Config",
+    "status": "skeleton",
+    "suggested_path": "core/config/"
+  },
+  "E12.CON.COR.111": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Config",
+    "status": "skeleton",
+    "suggested_path": "core/config/"
+  },
+  "E13.VAL.COR.112": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Validation",
+    "status": "skeleton",
+    "suggested_path": "core/validation/"
+  },
+  "E14.VAL.COR.113": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Validation",
+    "status": "skeleton",
+    "suggested_path": "core/validation/"
+  },
+  "E15.THE.COR.114": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Theming",
+    "status": "skeleton",
+    "suggested_path": "core/theming/"
+  },
+  "E16.THE.COR.115": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Theming",
+    "status": "skeleton",
+    "suggested_path": "core/theming/"
+  },
+  "E17.NOT.COR.116": {
+    "stage": "E1",
+    "layer": "core",
+    "module": "Notifications",
+    "status": "skeleton",
+    "suggested_path": "core/notifications/"
+  },
+  "E18.CLI.OPE.117": {
     "stage": "E2",
-    "module": "Navigare și Global Search AI",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E2.NAV.SVDS.FEAT.002": {
-    "stage": "E2",
-    "module": "Navigare și Global Search AI",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E2.BI.DASH.FEAT.003": {
-    "stage": "E2",
-    "module": "Navigare și Global Search AI",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E2.NAV.VMAP.FEAT.004": {
-    "stage": "E2",
-    "module": "Navigare și Global Search AI",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E3.CLI.FORM.CORE.001": {
-    "stage": "E3",
-    "module": "Clienți",
-    "status": "not_started",
+    "layer": "operational",
+    "module": "Clients",
+    "status": "skeleton",
     "suggested_path": "operational/clients/"
   },
-  "E3.CLI.PRICE.AI.002": {
-    "stage": "E3",
-    "module": "Clienți",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E19.CLI.OPE.118": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Clients",
+    "status": "skeleton",
+    "suggested_path": "operational/clients/"
   },
-  "E3.CLI.CROSS.AI.003": {
-    "stage": "E3",
-    "module": "Clienți",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E20.CLI.OPE.119": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Clients",
+    "status": "skeleton",
+    "suggested_path": "operational/clients/"
   },
-  "E3.SUP.DATA.CORE.004": {
-    "stage": "E3",
-    "module": "Furnizori",
-    "status": "not_started",
+  "E21.SUP.OPE.120": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Suppliers",
+    "status": "skeleton",
     "suggested_path": "operational/suppliers/"
   },
-  "E3.SUP.PRICE.AI.005": {
-    "stage": "E3",
-    "module": "Furnizori",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E22.SUP.OPE.121": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Suppliers",
+    "status": "skeleton",
+    "suggested_path": "operational/suppliers/"
   },
-  "E3.PRD.DATA.CORE.006": {
-    "stage": "E3",
-    "module": "Produse",
-    "status": "not_started",
+  "E23.PRO.OPE.122": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Products",
+    "status": "skeleton",
     "suggested_path": "operational/products/"
   },
-  "E3.PRD.BOM.CORE.007": {
-    "stage": "E3",
-    "module": "Produse",
-    "status": "not_started",
+  "E24.PRO.OPE.123": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Products",
+    "status": "skeleton",
     "suggested_path": "operational/products/"
   },
-  "E3.PRD.PRICE.AI.008": {
-    "stage": "E3",
-    "module": "Produse",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E25.PRO.OPE.124": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Products",
+    "status": "skeleton",
+    "suggested_path": "operational/products/"
   },
-  "E3.FIN.INV.CORE.009": {
-    "stage": "E3",
-    "module": "Facturi și Plăți",
-    "status": "not_started",
+  "E26.SAL.OPE.125": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Sales",
+    "status": "skeleton",
+    "suggested_path": "operational/sales/"
+  },
+  "E27.SAL.OPE.126": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Sales",
+    "status": "skeleton",
+    "suggested_path": "operational/sales/"
+  },
+  "E28.SAL.OPE.127": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Sales",
+    "status": "skeleton",
+    "suggested_path": "operational/sales/"
+  },
+  "E29.PUR.OPE.128": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Purchases",
+    "status": "skeleton",
+    "suggested_path": "operational/purchases/"
+  },
+  "E30.PUR.OPE.129": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Purchases",
+    "status": "skeleton",
+    "suggested_path": "operational/purchases/"
+  },
+  "E31.PUR.OPE.130": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Purchases",
+    "status": "skeleton",
+    "suggested_path": "operational/purchases/"
+  },
+  "E32.INV.OPE.131": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Invoices",
+    "status": "skeleton",
+    "suggested_path": "operational/invoices/"
+  },
+  "E33.INV.OPE.132": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Invoices",
+    "status": "skeleton",
+    "suggested_path": "operational/invoices/"
+  },
+  "E34.PAY.OPE.133": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Payments",
+    "status": "skeleton",
     "suggested_path": "operational/payments/"
   },
-  "E3.FIN.NIR.AUTOM.010": {
-    "stage": "E3",
-    "module": "Facturi și Plăți",
-    "status": "not_started",
+  "E35.PAY.OPE.134": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Payments",
+    "status": "skeleton",
     "suggested_path": "operational/payments/"
   },
-  "E3.FIN.PAY.AUTO.011": {
-    "stage": "E3",
-    "module": "Facturi și Plăți",
-    "status": "not_started",
-    "suggested_path": "operational/payments/"
+  "E36.WAR.OPE.135": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Warehouse",
+    "status": "skeleton",
+    "suggested_path": "operational/warehouse/"
   },
-  "E3.FIN.PAY.AI.012": {
-    "stage": "E3",
-    "module": "Facturi și Plăți",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E37.WAR.OPE.136": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Warehouse",
+    "status": "skeleton",
+    "suggested_path": "operational/warehouse/"
   },
-  "E3.HR.DATA.CORE.013": {
-    "stage": "E3",
-    "module": "HR",
-    "status": "not_started",
+  "E38.WAR.OPE.137": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Warehouse",
+    "status": "skeleton",
+    "suggested_path": "operational/warehouse/"
+  },
+  "E39.ACC.OPE.138": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Accounting",
+    "status": "skeleton",
+    "suggested_path": "operational/accounting/"
+  },
+  "E40.ACC.OPE.139": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Accounting",
+    "status": "skeleton",
+    "suggested_path": "operational/accounting/"
+  },
+  "E41.ACC.OPE.140": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Accounting",
+    "status": "skeleton",
+    "suggested_path": "operational/accounting/"
+  },
+  "E42.ACC.OPE.141": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Accounting",
+    "status": "skeleton",
+    "suggested_path": "operational/accounting/"
+  },
+  "E43.ACC.OPE.142": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Accounting",
+    "status": "skeleton",
+    "suggested_path": "operational/accounting/"
+  },
+  "E44.ACC.OPE.143": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Accounting",
+    "status": "skeleton",
+    "suggested_path": "operational/accounting/"
+  },
+  "E45.COS.OPE.144": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Costing",
+    "status": "skeleton",
+    "suggested_path": "operational/costing/"
+  },
+  "E46.COS.OPE.145": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Costing",
+    "status": "skeleton",
+    "suggested_path": "operational/costing/"
+  },
+  "E47.COS.OPE.146": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Costing",
+    "status": "skeleton",
+    "suggested_path": "operational/costing/"
+  },
+  "E48.HR.OPE.147": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Hr",
+    "status": "skeleton",
     "suggested_path": "operational/hr/"
   },
-  "E3.HR.SAL.AUTO.014": {
-    "stage": "E3",
-    "module": "HR",
-    "status": "not_started",
+  "E49.HR.OPE.148": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Hr",
+    "status": "skeleton",
     "suggested_path": "operational/hr/"
   },
-  "E3.HR.D112.AI.015": {
+  "E50.HR.OPE.149": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Hr",
+    "status": "skeleton",
+    "suggested_path": "operational/hr/"
+  },
+  "E51.HR.OPE.150": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Hr",
+    "status": "skeleton",
+    "suggested_path": "operational/hr/"
+  },
+  "E52.HR.OPE.151": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Hr",
+    "status": "skeleton",
+    "suggested_path": "operational/hr/"
+  },
+  "E53.HR.OPE.152": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Hr",
+    "status": "skeleton",
+    "suggested_path": "operational/hr/"
+  },
+  "E54.HR.OPE.153": {
+    "stage": "E2",
+    "layer": "operational",
+    "module": "Hr",
+    "status": "skeleton",
+    "suggested_path": "operational/hr/"
+  },
+  "E55.FLO.AUT.154": {
     "stage": "E3",
-    "module": "HR",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E4.AUTR.FLOW.AUTO.001": {
-    "stage": "E4",
-    "module": "Workflows & Automatizări",
-    "status": "not_started",
+    "layer": "automations",
+    "module": "Flows",
+    "status": "skeleton",
     "suggested_path": "automations/flows/"
   },
-  "E4.AUTR.CRON.AUTO.002": {
-    "stage": "E4",
-    "module": "Workflows & Automatizări",
-    "status": "not_started",
+  "E56.FLO.AUT.155": {
+    "stage": "E3",
+    "layer": "automations",
+    "module": "Flows",
+    "status": "skeleton",
     "suggested_path": "automations/flows/"
   },
-  "E4.AUTR.SHAD.AI.003": {
-    "stage": "E4",
-    "module": "Workflows & Automatizări",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E57.FLO.AUT.156": {
+    "stage": "E3",
+    "layer": "automations",
+    "module": "Flows",
+    "status": "skeleton",
+    "suggested_path": "automations/flows/"
   },
-  "E4.LEGAL.WTCH.AI.004": {
-    "stage": "E4",
-    "module": "Legal & Help Center AI",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E58.FLO.AUT.157": {
+    "stage": "E3",
+    "layer": "automations",
+    "module": "Flows",
+    "status": "skeleton",
+    "suggested_path": "automations/flows/"
   },
-  "E4.AI.HELP.FEAT.005": {
-    "stage": "E4",
-    "module": "Legal & Help Center AI",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E59.TRI.AUT.158": {
+    "stage": "E3",
+    "layer": "automations",
+    "module": "Triggers",
+    "status": "skeleton",
+    "suggested_path": "automations/triggers/"
   },
-  "E4.AI.QA.AUTO.006": {
-    "stage": "E4",
-    "module": "Legal & Help Center AI",
-    "status": "not_started",
-    "suggested_path": "ai/"
+  "E60.TRI.AUT.159": {
+    "stage": "E3",
+    "layer": "automations",
+    "module": "Triggers",
+    "status": "skeleton",
+    "suggested_path": "automations/triggers/"
   },
-  "E5.BI.RPT.FEAT.001": {
+  "E61.TRI.AUT.160": {
+    "stage": "E3",
+    "layer": "automations",
+    "module": "Triggers",
+    "status": "skeleton",
+    "suggested_path": "automations/triggers/"
+  },
+  "E62.QA.AUT.161": {
+    "stage": "E3",
+    "layer": "automations",
+    "module": "Qa",
+    "status": "skeleton",
+    "suggested_path": "automations/qa/"
+  },
+  "E63.LEA.AI.162": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Learning",
+    "status": "skeleton",
+    "suggested_path": "ai/learning/"
+  },
+  "E64.LEA.AI.163": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Learning",
+    "status": "skeleton",
+    "suggested_path": "ai/learning/"
+  },
+  "E65.PRE.AI.164": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Predictions",
+    "status": "skeleton",
+    "suggested_path": "ai/predictions/"
+  },
+  "E66.PRE.AI.165": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Predictions",
+    "status": "skeleton",
+    "suggested_path": "ai/predictions/"
+  },
+  "E67.PRI.AI.166": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Pricing",
+    "status": "skeleton",
+    "suggested_path": "ai/pricing/"
+  },
+  "E68.REC.AI.167": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Reconciliation",
+    "status": "skeleton",
+    "suggested_path": "ai/reconciliation/"
+  },
+  "E69.CON.AI.168": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Context_engine",
+    "status": "skeleton",
+    "suggested_path": "ai/context_engine/"
+  },
+  "E70.CON.AI.169": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Context_engine",
+    "status": "skeleton",
+    "suggested_path": "ai/context_engine/"
+  },
+  "E71.CON.AI.170": {
+    "stage": "E4",
+    "layer": "ai",
+    "module": "Context_engine",
+    "status": "skeleton",
+    "suggested_path": "ai/context_engine/"
+  },
+  "E72.CON.EXT.171": {
     "stage": "E5",
-    "module": "Business Intelligence & KPI",
-    "status": "not_started",
+    "layer": "extensions",
+    "module": "Connectors",
+    "status": "skeleton",
+    "suggested_path": "extensions/connectors/"
+  },
+  "E73.CON.EXT.172": {
+    "stage": "E5",
+    "layer": "extensions",
+    "module": "Connectors",
+    "status": "skeleton",
+    "suggested_path": "extensions/connectors/"
+  },
+  "E74.CON.EXT.173": {
+    "stage": "E5",
+    "layer": "extensions",
+    "module": "Connectors",
+    "status": "skeleton",
+    "suggested_path": "extensions/connectors/"
+  },
+  "E75.DOC.EXT.174": {
+    "stage": "E5",
+    "layer": "extensions",
+    "module": "Docs",
+    "status": "skeleton",
+    "suggested_path": "extensions/docs/"
+  },
+  "E76.DOC.EXT.175": {
+    "stage": "E5",
+    "layer": "extensions",
+    "module": "Docs",
+    "status": "skeleton",
+    "suggested_path": "extensions/docs/"
+  },
+  "E77.MUL.EXT.176": {
+    "stage": "E5",
+    "layer": "extensions",
+    "module": "Multisite",
+    "status": "skeleton",
+    "suggested_path": "extensions/multisite/"
+  },
+  "E78.MUL.EXT.177": {
+    "stage": "E5",
+    "layer": "extensions",
+    "module": "Multisite",
+    "status": "skeleton",
+    "suggested_path": "extensions/multisite/"
+  },
+  "E79.DAS.BI.178": {
+    "stage": "E6",
+    "layer": "bi",
+    "module": "Dashboard",
+    "status": "skeleton",
     "suggested_path": "bi/dashboard/"
   },
-  "E5.BI.RPT.AI.002": {
-    "stage": "E5",
-    "module": "Business Intelligence & KPI",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E5.HTH.CHK.AI.003": {
-    "stage": "E5",
-    "module": "Business Intelligence & KPI",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E5.SYS.EXPORT.CONN.004": {
-    "stage": "E5",
-    "module": "Business Intelligence & KPI",
-    "status": "not_started",
-    "suggested_path": "core/"
-  },
-  "E5.SYS.ALERT.AUTO.005": {
-    "stage": "E5",
-    "module": "Business Intelligence & KPI",
-    "status": "not_started",
-    "suggested_path": "core/"
-  },
-  "E5.AI.DIAG.AI.006": {
-    "stage": "E5",
-    "module": "Business Intelligence & KPI",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E6.EXT.API.CONN.001": {
+  "E80.DAS.BI.179": {
     "stage": "E6",
-    "module": "Integrări & Extensii Externe",
-    "status": "not_started",
-    "suggested_path": "core/"
-  },
-  "E6.EXT.AI.PRICING.002": {
-    "stage": "E6",
-    "module": "Integrări & Extensii Externe",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E6.EXT.MULTISITE.CORE.003": {
-    "stage": "E6",
-    "module": "Integrări & Extensii Externe",
-    "status": "not_started",
-    "suggested_path": "core/"
-  },
-  "E6.EXT.API.AUTOM.004": {
-    "stage": "E6",
-    "module": "Integrări & Extensii Externe",
-    "status": "not_started",
-    "suggested_path": "core/"
-  },
-  "E6.EXT.AI.LEARN.005": {
-    "stage": "E6",
-    "module": "Integrări & Extensii Externe",
-    "status": "not_started",
-    "suggested_path": "ai/"
-  },
-  "E6.EXT.BI.CORE.007": {
-    "stage": "E6",
-    "module": "Integrări & Extensii Externe",
-    "status": "not_started",
+    "layer": "bi",
+    "module": "Dashboard",
+    "status": "skeleton",
     "suggested_path": "bi/dashboard/"
   },
-  "E6.EXT.DOCS.AI.008": {
+  "E81.REP.BI.180": {
     "stage": "E6",
-    "module": "Integrări & Extensii Externe",
-    "status": "not_started",
-    "suggested_path": "ai/"
+    "layer": "bi",
+    "module": "Reports",
+    "status": "skeleton",
+    "suggested_path": "bi/reports/"
+  },
+  "E82.REP.BI.181": {
+    "stage": "E6",
+    "layer": "bi",
+    "module": "Reports",
+    "status": "skeleton",
+    "suggested_path": "bi/reports/"
+  },
+  "E83.REP.BI.182": {
+    "stage": "E6",
+    "layer": "bi",
+    "module": "Reports",
+    "status": "skeleton",
+    "suggested_path": "bi/reports/"
+  },
+  "E84.HEL.FRO.183": {
+    "stage": "E7",
+    "layer": "frontend",
+    "module": "Help_center",
+    "status": "skeleton",
+    "suggested_path": "frontend/help_center/"
+  },
+  "E85.HEL.FRO.184": {
+    "stage": "E7",
+    "layer": "frontend",
+    "module": "Help_center",
+    "status": "skeleton",
+    "suggested_path": "frontend/help_center/"
   }
 }

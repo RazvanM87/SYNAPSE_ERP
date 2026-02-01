@@ -3,92 +3,87 @@ import os
 import json
 from datetime import datetime
 
-# 🔹 Fișiere critice urmărite (poți adăuga altele dacă dorești)
 WATCHED_FILES = [
-    'master_blueprint.json',
-    'master_blueprint.bak',
-    'sync_blueprint.py',
-    'analyze_code.py',
-    'daily_report.py',
-    'audit_integrity.py',
-    'generate_structure.py',
-    'reports/qa/daily_report.txt'
+    'master_blueprint.json', 'master_blueprint.bak', 'sync_blueprint.py', 'generate_structure.py',
+    'analyze_code.py', 'audit_integrity.py', 'daily_report.py', 'apply_headers.py', 'generate_docs.py',
+    'extensions/docs/file_cabinet.py', 'ai/context_engine/dependency_mapper.py',
+    'reports/qa/daily_report.txt', 'reports/qa/blueprint_index.json', 'reports/qa/snapshot_ai_context.json'
 ]
 
 CHECKSUM_FILE = 'reports/qa/checksums.json'
 
-# 🧠 Generează hash MD5 al unui fișier
+# 🔹 Fișiere de exclus din verificare (backupuri, zipuri etc.)
+EXCLUDE_PATTERNS = ['.zip', '.bak', '.tmp', '.log', '.pyc', '__pycache__']
+
+def should_ignore(path):
+    path_lower = path.lower()
+    return any(p in path_lower for p in EXCLUDE_PATTERNS)
+
 def generate_md5(path):
     try:
+        if should_ignore(path):
+            return None
         with open(path, 'rb') as f:
             return hashlib.md5(f.read()).hexdigest()
     except Exception as e:
-        return f"error: {e}"
+        return f'error: {e}'
 
-# 🔍 Încarcă sau creează fișierul de referință al checksumurilor
 def load_previous():
     if os.path.exists(CHECKSUM_FILE):
         with open(CHECKSUM_FILE, 'r', encoding='utf-8') as f:
             return json.load(f)
     return {}
 
-# 💾 Salvează noile checksumuri
 def save_checksums(checksums):
     os.makedirs(os.path.dirname(CHECKSUM_FILE), exist_ok=True)
     with open(CHECKSUM_FILE, 'w', encoding='utf-8') as f:
         json.dump(checksums, f, indent=2)
 
-# 🩺 Verifică integritatea actuală
 def verify():
-    print(f"\n🔐 VERIFICARE INTEGRITATE – {datetime.now()}")
+    print(f"\n🔐 VERIFICARE INTEGRITATE SYNAPSE ERP – {datetime.now():%Y-%m-%d %H:%M:%S}")
 
-    previous = load_previous()
-    current = {}
-    changed = []
-    new_files = []
-    missing = []
+    previous, current, changed, missing, new_files = load_previous(), {}, [], [], []
 
     for path in WATCHED_FILES:
+        if should_ignore(path):
+            continue
         if not os.path.exists(path):
             missing.append(path)
             continue
-
         md5 = generate_md5(path)
+        if md5 is None:
+            continue
         current[path] = md5
-
         if path not in previous:
             new_files.append(path)
         elif previous[path] != md5:
             changed.append(path)
 
-    # 📊 Rezumat vizual
     if changed:
-        print(f"\n⚠️ Fișiere modificate față de ultimul audit:")
+        print('\n⚠️  Fișiere modificate:')
         for c in changed:
-            print(f"  - {c}")
+            print(f'  - {c}')
     else:
-        print("✅ Nicio modificare detectată în fișierele existente.")
+        print('✅  Nicio modificare detectată.')
 
     if new_files:
-        print(f"\n🆕 Fișiere noi adăugate în listă de verificare:")
-        for n in new_files:
-            print(f"  - {n}")
+        print('\n🆕  Fișiere noi:')
+        for f in new_files:
+            print(f'  - {f}')
 
     if missing:
-        print(f"\n❌ Fișiere lipsă detectate:")
-        for m in missing:
-            print(f"  - {m}")
+        print('\n❌  Fișiere lipsă:')
+        for f in missing:
+            print(f'  - {f}')
 
-    # 💾 Actualizare referință pentru rulările următoare
     save_checksums(current)
 
-    print("\n--------------------------------------")
+    print('\n----------------------------------------------')
     if not changed and not missing:
-        print("🟢 Integritatea datelor este garantată. (Checksum OK)")
+        print('🟢  Integritate garantată. (Checksum OK)')
     else:
-        print("🟠 Avertismente: Verificați fișierele listate mai sus.")
-    print("--------------------------------------\n")
-
+        print('🟠  Avertismente: Verificați modificările.')
+    print('----------------------------------------------\n')
 
 if __name__ == '__main__':
     verify()

@@ -1,10 +1,15 @@
 {
-  "master_blueprint.json": "5411962b9aef6fabbbac862e81a22c10",
-  "master_blueprint.bak": "e1b26b2366de0c024d1af4e8df07756b",
-  "sync_blueprint.py": "b478812b85732862a03cb3c8361af997",
-  "analyze_code.py": "287c22680793cb1528bc3c9a76575d66",
-  "daily_report.py": "60812fdc2ca1b747401f7fb7239b59f3",
-  "audit_integrity.py": "5de7fec0f8765f4ce4c4a2865c24dd5f",
-  "generate_structure.py": "0202d4b07338d1c5c2b5f159f156dd59",
-  "reports/qa/daily_report.txt": "b0d1f2f2feef2bdeb9351962b007c82f"
+  "master_blueprint.json": "4275478a60c3cc3bd29aac63d6c266ac",
+  "sync_blueprint.py": "ae6999e3ab16ade5ff07e658e8c6b24a",
+  "generate_structure.py": "aaccb7cf2c57ae0cee09517106cb92d1",
+  "analyze_code.py": "c9dea8873b9b4c6774ce980e7c6a9c00",
+  "audit_integrity.py": "aec800cc9d652e9e8fb2a916d225578c",
+  "daily_report.py": "88ac67d102f45d0cf06ba7abfb30db15",
+  "apply_headers.py": "9070322269ff763b7545f44b545ecb19",
+  "generate_docs.py": "b6399095a0ba6be953193b230084f1a9",
+  "extensions/docs/file_cabinet.py": "949d77fa18ea6a421dc26d6cae5ab308",
+  "ai/context_engine/dependency_mapper.py": "e2b1e992766e074d38c3672612b18d62",
+  "reports/qa/daily_report.txt": "001afd116796c4ab66bc861b7216c75b",
+  "reports/qa/blueprint_index.json": "e2648bebd7daccb3297ee966eec3e10a",
+  "reports/qa/snapshot_ai_context.json": "dc741771b839c04e22dfdee6aff896c0"
 }
